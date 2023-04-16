@@ -1,9 +1,8 @@
-import Navbar from "./compontents/Navbar";
-import Modal from "./compontents/Modal";
-import Form from "./compontents/Form";
-import Sidebar from "./compontents/Sidebar";
-import Notes from "./compontents/Notes";
-
+import Navbar from "./components/Navbar";
+import Modal from "./components/Modal";
+import Form from "./components/Form";
+import Sidebar from "./components/Sidebar";
+import Notes from "./components/Notes";
 
 function App() {
   return (
