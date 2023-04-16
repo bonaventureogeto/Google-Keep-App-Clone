@@ -1,7 +1,6 @@
 import "./Sidebar.css";
 
 function Sidebar() {
-  //sidebar
   return (
     <div>
       <div class="sidebar">
