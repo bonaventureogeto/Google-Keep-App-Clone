@@ -1,0 +1,41 @@
+/* NOTES */
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.note {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 1px #dfe1e5, inset 0 1px 2px rgba(60,64,67,.30), 0 1px 3px rgba(60,64,67,.15);
+    border: 1px solid #ccc;
+}
+
+.note:hover {
+    background-color: #fef0c3;
+    border-radius: 8px;
+    color: black;
+}
+
+.note .title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+}
+
+.note .text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
